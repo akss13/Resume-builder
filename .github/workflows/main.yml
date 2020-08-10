@@ -9,11 +9,6 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-        #   # working_directory: /src
           root_file: main.tex
           latexmk_use_xelatex: true
-        # run: ls -la
-
-
-        # - name: Github Action for LaTeX
-        #   uses: xu-cheng/latex-action@v2
+          args: --interaction=nonstopmode
