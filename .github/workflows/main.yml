@@ -12,7 +12,11 @@ jobs:
           root_file: main.tex
           latexmk_use_xelatex: true
           # args: --interaction=nonstopmode
-      - uses: actions/upload-artifact@v2
-        with:
-          name: my-artifact
-          path: ./main.pdf
+      - name: push changes to remote
+        run: |
+          git config --global user.name "akss13"
+          git config --global user.email "aakarsh.s.saini@gmail.com"
+          git add main.pdf
+          git commit -a -m "pdf file commit from action"
+          git push
+
