@@ -10,4 +10,4 @@ jobs:
         #   # working_directory: /src
           root_file: "deedy_resume-openfont.tex"
           latexmk_use_xelatex: true
-        run: ls -la
+        # run: ls -la
