@@ -17,6 +17,6 @@ jobs:
           git config --global user.name "akss13"
           git config --global user.email "aakarsh.s.saini@gmail.com"
           git add main.pdf
-          git commit -a -m "pdf file commit from action"
+          git commit -m "pdf file commit from action"
           git push
 
