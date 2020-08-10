@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Compile LaTeX document
-        # uses: xu-cheng/latex-action@v2
-        # with:
+        uses: xu-cheng/latex-action@v2
+        with:
         #   # working_directory: /src
-        #   root_file: "deedy_resume-openfont.tex"
-        #   latexmk_use_xelatex: true
-        run: pwd
+          root_file: "deedy_resume-openfont.tex"
+          latexmk_use_xelatex: true
+        # run: pwd
