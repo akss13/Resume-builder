@@ -12,3 +12,7 @@ jobs:
           root_file: main.tex
           latexmk_use_xelatex: true
           # args: --interaction=nonstopmode
+      - uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: path/to/artifact/main.pdf
