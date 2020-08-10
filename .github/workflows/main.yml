@@ -8,6 +8,10 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
         #   # working_directory: /src
-          root_file: "deedy_resume-openfont.tex"
+          root_file: main.tex
           latexmk_use_xelatex: true
         # run: ls -la
+
+
+        # - name: Github Action for LaTeX
+        #   uses: xu-cheng/latex-action@v2
