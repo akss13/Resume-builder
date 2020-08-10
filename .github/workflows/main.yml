@@ -7,5 +7,5 @@ jobs:
         - name: Github Action for LaTeX
         uses: xu-cheng/latex-action@v2
         with:
-        root_file: deedy_resume-openfont.tex
-        latexmk_use_xelatex: true
+            root_file: deedy_resume-openfont.tex
+            latexmk_use_xelatex: true
