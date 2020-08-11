@@ -1,4 +1,4 @@
-name: Build LaTeX Document
+name: Build LaTeX Doc
 on: [push]
 jobs:
   build_latex:
