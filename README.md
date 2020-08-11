@@ -27,6 +27,6 @@ Automate resume generration based on <b>deedy resume</b> and create a static url
 - For publications to work compile the <b>.tex</b> first. Then compile <b>.bib</b> file. Then compile <b>.tex</b> again.
 - Remember to pull changes before commiting changes again since <b>.pdf</b> file gets uploaded to the same branch.
 - Check my other [repo](https://github.com/akss13/akss13.github.io) for the workflow file on the parent repo.
-- Check the github actions used for more details:
+- Checkout these github actions used for more details:
     - [latex-action](https://github.com/xu-cheng/latex-action)
     - [repository-dispatch](https://github.com/peter-evans/repository-dispatch)
