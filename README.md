@@ -6,7 +6,7 @@ Automate resume generration based on <b>deedy resume</b> and create a static url
 
 - Resume builder is based on the popular resume template by [deedy](https://github.com/deedy/Deedy-Resume).
 - Once you make changes to the source file(<b>.tex</b>) in your preferred editor and push, it generates the output pdf file in the repo itself. Then you may add the repo as a submodule to your other git repo or embed the file in your project.
-<br><br>
+## Git Workflow
 ![](resume-diagram.png)
 
 ## How to replicate?
